@@ -1,0 +1,41 @@
+community.alteryx.com/t5/ACE-Program/bd-p/ace-programHTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Date: Sat, 10 Apr 2021 01:52:16 GMT
+Set-Cookie: AWSALB=8GgQWB+kf4/Sn5x2y8qggOT+5XVroow7cMaMap3eD4p8Ur5PBfw6ZnA4Xtoem/ZM0KSKSsv+8lfgc19t9S8WgNckT5lC8wZiBlvWpMNPm82xvgCNB/cwWIjNJgbF; Expires=Sat, 17 Apr 2021 01:52:16 GMT; Path=/
+Set-Cookie: AWSALBCORS=8GgQWB+kf4/Sn5x2y8qggOT+5XVroow7cMaMap3eD4p8Ur5PBfw6ZnA4Xtoem/ZM0KSKSsv+8lfgc19t9S8WgNckT5lC8wZiBlvWpMNPm82xvgCNB/cwWIjNJgbF; Expires=Sat, 17 Apr 2021 01:52:16 GMT; Path=/; SameSite=None
+Server: Apache
+Set-Cookie: LiSESSIONID=262395770FE87934AE464867E7B0C251; Path=/; HttpOnly
+Set-Cookie: LithiumUserInfo=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: LithiumUserSecure=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: LithiumVisitor=~2289ogM9oum0s9CW7~OoxQFBKZx8vdxsA_C8Lw6qeY5PfCwyCfaxyLXlddOk_7KYpBPa3KfBUV2R4olCCsVS_vvwoSqr0kBlZSmeTBpA..; Expires=Tue, 08-Apr-2031 01:52:16 GMT; Path=/; HttpOnly
+location: https://community.alteryx.com/t5/ACE-Program/bd-p/ace-program
+X-Cache: Miss from cloudfront
+Via: 1.1 4fe583422d0b309b9b1d4505e54b137c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK51-C1
+X-Amz-Cf-Id: GcA02jSXYU5nI1jkZlCI6JYj_VJWcxlZH12xa9C7RFQzHs7GPmdtzw==
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Content-Length: 46155
+Connection: keep-alive
+Date: Sat, 10 Apr 2021 01:52:17 GMT
+Set-Cookie: AWSALB=jHKmN77os6yF5Wq4RK5A/h1+PehOURo1s9UBo4SAtEvQ5mi3HUBpE1re5JSx1wowytRiabxeTbaD2ypopfQA+bcaCkKtgTtqPT1MlJEkoUYC3f0z3gPl7FHmnTZ+; Expires=Sat, 17 Apr 2021 01:52:17 GMT; Path=/
+Set-Cookie: AWSALBCORS=jHKmN77os6yF5Wq4RK5A/h1+PehOURo1s9UBo4SAtEvQ5mi3HUBpE1re5JSx1wowytRiabxeTbaD2ypopfQA+bcaCkKtgTtqPT1MlJEkoUYC3f0z3gPl7FHmnTZ+; Expires=Sat, 17 Apr 2021 01:52:17 GMT; Path=/; SameSite=None; Secure
+Server: Apache
+Set-Cookie: LiSESSIONID=7AC6462BFA34C39092F7CC000B606B6C; Path=/; Secure; HttpOnly
+Set-Cookie: LithiumUserInfo=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: LithiumUserSecure=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: LithiumVisitor=~2jUthdSXnJVPmLSBd~iP3J5zxrKV-qb3EQl-B-UZ-jdG8-06i0dOmOk-SNxkX53iJWMp_Eo52VZj3DfTCwviXfmlYscbO3WD7cwjZJDw..; Expires=Tue, 08-Apr-2031 01:52:17 GMT; Path=/; HttpOnly
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate, private
+X-Frame-Options: SAMEORIGIN
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 7a9ee72a0b48ca2cabd7b6a48922db46.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK51-C1
+X-Amz-Cf-Id: 8qhaQD-W1puUw30pWwCBcD2gJ8390_6Zz9r1UmVw83Zqu_gdW6tFYg==
+
+

@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="2" SearchSubDirs="False" RecordLimit="">G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf</File>
+          <FormatSpecificOptions>
+            <AllStrings>False</AllStrings>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>wyoming-schools.dbf</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NCESSchool" size="12" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="SchoolName" size="30" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="V_String" />
+            <Field name="StreetAddr" size="30" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="V_String" />
+            <Field name="City" size="18" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="State" size="2" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="ZipCode" size="5" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="Zip_4" size="4" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="Enrollment" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="Double" />
+            <Field name="Telephone" size="10" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="Locale" size="1" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="LocaleDesc" size="12" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="MSA_Cat" size="10" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="SchoolType" size="1" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="TypeDesc" size="16" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="SchoolLeve" size="1" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="LevelDesc" size="10" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="LowestGrad" size="2" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="HighestGra" size="2" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="558" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Enrollment" action="Sum" rename="Sum_Enrollment" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="NCESSchool" selected="True" />
+            <Field field="SchoolName" selected="True" />
+            <Field field="StreetAddr" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="ZipCode" selected="True" />
+            <Field field="Zip_4" selected="True" />
+            <Field field="Telephone" selected="True" />
+            <Field field="Locale" selected="True" />
+            <Field field="LocaleDesc" selected="True" />
+            <Field field="MSA_Cat" selected="True" />
+            <Field field="SchoolType" selected="True" />
+            <Field field="TypeDesc" selected="True" />
+            <Field field="SchoolLeve" selected="True" />
+            <Field field="LevelDesc" selected="True" />
+            <Field field="LowestGrad" selected="True" />
+            <Field field="HighestGra" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NCESSchool" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="Int64" />
+            <Field name="SchoolName" size="30" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="V_String" />
+            <Field name="StreetAddr" size="29" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="V_String" />
+            <Field name="City" size="14" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="V_String" />
+            <Field name="State" size="2" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="ZipCode" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="Int32" />
+            <Field name="Zip_4" size="4" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="Enrollment" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="Double" />
+            <Field name="Telephone" size="10" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="Locale" size="1" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="LocaleDesc" size="12" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="V_String" />
+            <Field name="MSA_Cat" size="10" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="SchoolType" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="Byte" />
+            <Field name="TypeDesc" size="14" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="V_String" />
+            <Field name="SchoolLeve" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="Byte" />
+            <Field name="LevelDesc" size="7" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="LowestGrad" size="2" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+            <Field name="HighestGra" size="2" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project3\Lesson3\8.AggregatingEx\wyoming-schools.dbf" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="282" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>City</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-04-10 20:18:10</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Laramie</Operand>
+              <StartDate>2021-04-10 20:18:10</StartDate>
+              <EndDate>2021-04-10 20:18:10</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[City] = "Laramie"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="426" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>TypeDesc</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-04-10 20:18:42</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Voc/Tech/Other</Operand>
+              <StartDate>2021-04-10 20:18:42</StartDate>
+              <EndDate>2021-04-10 20:18:42</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[TypeDesc] = "Voc/Tech/Other"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

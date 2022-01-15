@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml</File>
+          <FormatSpecificOptions>
+            <ParseRoot>False</ParseRoot>
+            <OuterXML>False</OuterXML>
+            <IgnoreErrors>False</IgnoreErrors>
+            <XmlElement />
+            <ChildValues>True</ChildValues>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>transactions.xml</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Transaction" size="4" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="V_String" />
+            <Field name="Customer_ID" size="4" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="V_String" />
+            <Field name="Product_Name" size="98" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="V_WString" />
+            <Field name="Sales" size="9" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="V_String" />
+            <Field name="Order_ID" size="5" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="162" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Transaction" selected="True" />
+            <Field field="Customer_ID" selected="True" />
+            <Field field="Product_Name" selected="True" />
+            <Field field="Sales" selected="True" />
+            <Field field="Order_ID" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Transaction" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="Int16" />
+            <Field name="Customer_ID" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="Int16" />
+            <Field name="Product_Name" size="98" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="V_WString" />
+            <Field name="Sales" size="9" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="String" />
+            <Field name="Order_ID" source="File: G:\4_PersonalDevelopment\5_BertelsmannTech\2_Phase\Project2\Lesson1\22.Data Types Ex\transactions.xml" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Order_ID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-04-09 22:02:34</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>10080</Operand>
+              <StartDate>2021-04-09 22:02:34</StartDate>
+              <EndDate>2021-04-09 22:02:34</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Order_ID] = 10080</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>WebScrapping</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
