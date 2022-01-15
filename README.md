@@ -25,4 +25,4 @@ Nanodegree program details: [Udacity's Predictive Analytics for Business Nanodeg
 
 [Capstone Project](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project6)
 
-![Nanodegree](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Nanodegree_predictive_analytics.pdf)
+![Nanodegree](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Nanodegree_predictive_analytics.jpg)
