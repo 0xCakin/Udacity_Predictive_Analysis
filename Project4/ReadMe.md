@@ -23,9 +23,9 @@ As a business analyst for Round Roasters, a coffee restaurant in the United Stat
 
 ## Project Materials and Findings
 
-[1-Provided Raw Data](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project4/data)
+[1-Provided Raw Data](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project4/Project/data)
 
-[2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project4/results)
+[2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project4/Project/results)
 
-[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project4/submission_ca.pdf)
+[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project4/Project/submission_ca.pdf)
 
