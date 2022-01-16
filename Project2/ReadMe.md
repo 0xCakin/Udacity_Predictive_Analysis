@@ -6,9 +6,9 @@ Pawdacity is a leading pet store chain in Wyoming with 13 stores throughout the 
 
 ## Project Materials and Findings
 
-[1-Provided Raw Data](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project2/data)
+[1-Provided Raw Data](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project2/project/data)
 
-[2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project2/results)
+[2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project2/project/results)
 
-[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project2/p2.1_submission_ca.pdf)
+[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project2/project/p2.1_submission_ca.pdf)
 
