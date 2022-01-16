@@ -10,5 +10,5 @@ In this project, a business problem in the mail-order catalog business has been 
 
 [2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project1/results)
 
-[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project1/Project/p1_submission_ca.pdf)
+[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project1/project_1.pdf)
 
