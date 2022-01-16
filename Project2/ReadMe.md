@@ -1,4 +1,4 @@
-# Project 2 - Predicting Catalog Demand
+# Project 2 - Select Location of a New Pet Store
 
 ## Project Overview
 
