@@ -20,9 +20,9 @@ As a loan officer at a young and small bank (been in operations for two years) t
 
 ## Project Materials and Findings
 
-[1-Provided Raw Data](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project3/project/data)
+[1-Provided Raw Data](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project3/Project/data)
 
-[2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project3/project/results)
+[2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project3/Project/results)
 
-[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project3/project/p2.1_submission_ca.pdf)
+[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project3/Project/p2.1_submission_ca.pdf)
 
