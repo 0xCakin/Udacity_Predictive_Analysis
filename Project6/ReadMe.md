@@ -24,9 +24,9 @@ Fresh produce has a short life span, and due to increasing costs, the company wa
 
 ## Project Materials and Findings
 
-[1-Provided Raw Data](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project6/project/data)
+[1-Provided Raw Data](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project6/Project/data)
 
-[2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project6/project/results)
+[2-Results](https://github.com/canerakin111/Udacity_Predictive_Analysis/tree/master/Project6/Project/results)
 
-[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project6/project/Final_submission_akinc.pdf)
+[3-Project Recommendation Report](https://github.com/canerakin111/Udacity_Predictive_Analysis/blob/master/Project6/Project/Final_submission_akinc.pdf)
 
